@@ -31,16 +31,16 @@
 // Number(age);
 // parseInt("10.5");
 // console.log("age--->",typeof Number(age),typeof(parseInt("10.5")));
-let firstName= "Aniket";
+let firstName= "Lakshya";
 let course= "JavaScript";
 
 firstName.length
-firstName.toUpperCase();
-firstName.toLowerCase();
-firstName.includes("Ani");
+firstName.toUpperCase()
+firstName.toLowerCase()
+firstName.includes("Lak");// .includes tells if chatracters is part of the string or not.
 
-console.log(firstName.includes("java"));
-let first = "Aniket";
-let last= "Tiwari";
+console.log(firstName.includes("Lak"));
+let first = "Lakshya";
+let last= "Jha";
 let full=first+ " " + last;
 console.log(full);
